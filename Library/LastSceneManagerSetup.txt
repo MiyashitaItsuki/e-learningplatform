@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/conversation.unity
+- path: Assets/scene/mainMenu.unity
   isLoaded: 1
   isActive: 1
