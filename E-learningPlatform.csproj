@@ -83,6 +83,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonScripts.cs" />
     <Compile Include="Assets\Scripts\conversationManager.cs" />
+    <Compile Include="Assets\Scripts\diffObjManager.cs" />
     <Compile Include="Assets\Scripts\mainMenuObjManager.cs" />
     <Compile Include="Assets\Scripts\scenarioObjManager.cs" />
     <Compile Include="Assets\Scripts\sceneManager.cs" />

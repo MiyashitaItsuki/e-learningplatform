@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/record.unity
+- path: Assets/scene/difficultySelect.unity
   isLoaded: 1
   isActive: 1
