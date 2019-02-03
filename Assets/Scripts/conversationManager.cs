@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+#if UNITY_EDITOR
 using UnityEditor.Audio;
 using UnityEditor.Animations;
+#endif
 
 public class conversationManager : MonoBehaviour {
 	//public Text[] Conversation = new Text[10];
@@ -24,7 +26,7 @@ public class conversationManager : MonoBehaviour {
 	public Animator animator;
 	// Use this for i nitialization
 	void Start () {
-
+		
 		//animator.SetBool("talk", false);
 		switch ((sceneManager.pattern >> 16) & 0x00FF)
 		{
